@@ -1,5 +1,10 @@
-.discover_title{
+body{
+    background-color: rgb(17, 1, 1);
+    text-align: center;
+}.discover_title, .app_link, .recommendations{
     font-family: "Verdona", "Times", serif;
+}
+.discover_title{
     font-weight: normal;
     font-size: 50px;
     text-align: center;
@@ -8,4 +13,17 @@
 .app_link{
     color: aquamarine;
     text-align: center;
+}
+.travel_guide{
+    font-weight: 300;
+    font-size: 42px;
+}
+.recommendations{
+    font-size: 21px;
+    color: gray;
+}
+
+footer{
+    color: gray;
+    text-align: right;
 }
